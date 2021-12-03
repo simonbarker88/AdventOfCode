@@ -43,8 +43,6 @@ for type in ['Oxygen','C02']:
     
             if len(c02) != 1:
                 c02 = [x for x in lines if x.startswith(epsilon_rate)]
-            
-            print(c02,epsilon_rate,i,bits)
 
             temp_lines = c02
    
