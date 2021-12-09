@@ -1,6 +1,3 @@
-def process_day (a):
-    return (a -1 if a - 1 >= 0 else 6)
-
 def main():
 
     text_file = 'H:\AdventOfCode\Day6.txt'
